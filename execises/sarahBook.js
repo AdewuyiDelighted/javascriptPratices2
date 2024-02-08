@@ -1,3 +1,4 @@
+
 function giveBook(objs){
     let books = ["Book1","Book2","Book3","Book4"]
     let count = 0
@@ -7,7 +8,7 @@ function giveBook(objs){
     }
     return objs
 }
-module.exports(giveBook)
+module.exports = {giveBook}
 
 
 
